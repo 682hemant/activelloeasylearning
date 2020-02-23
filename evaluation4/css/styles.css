@@ -1,0 +1,245 @@
+html,body{
+  height:100%;
+  width:100%;
+}
+*{
+  box-sizing:border-box;
+}
+.container-fluid {
+  padding-left:0;
+  padding-right:0;
+
+}
+.logo{
+  text-align: center;
+}
+.logo img{
+  height:230px;
+
+}
+.navbar li a{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size :12px;
+
+}
+.aside .head{
+  font-size:16px;
+   letter-spacing: 1px;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   text-decoration: none;
+   color:#696969;
+   border-bottom:2px solid #a161bf;
+   padding-bottom:2px;
+
+}
+.aside{
+  margin-top:30px;
+}
+.aside img{
+  height:auto;
+  max-width:100%;
+  vertical-align:middle;
+  box-sizing: border-box;
+  margin-top:20px;
+}
+.aside p{
+  margin:15px 0;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+ .aside .icon{
+   display: inline-block;
+   padding:0 10px;
+   margin-top: 20px;
+   color:black;
+
+}
+.aside h5{
+  font-style:italic;
+  font-size:16px;
+  text-decoration:none;
+  color:#696969;
+  margin-top: 10px;
+  padding-left:4px;
+  padding-top:70px;
+}
+.aside .recent{
+   height:auto;
+   max-width:100%;
+   vertical-align:middle;
+}
+.aside .recent:hover{
+  opacity:0.8;
+}
+.aside td a{
+  color:#696969;
+  font-size:14px;
+
+}
+.aside td a:hover{
+   color:red;
+}
+table{
+  margin-top:10px;
+}
+.aside1 .upperhading{
+  color: #696969;
+    font-family: montserrat,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    Font-size:12px;
+    border-bottom: 1px solid #a161bf;
+    vertical-align: center;
+    margin-left: 50px;
+
+
+
+}
+.aside1 .entry-title{
+  font-size: 24px;
+    font-style: italic;
+     color: #696969;
+    margin-bottom: 15px;
+    text-decoration:none
+}
+.aside1 .entry-title a{
+    text-decoration:none;
+  color: #696969;
+
+}
+.aside1 small{
+  color: #696969;
+
+}
+
+.aside1 a img:hover{
+  opacity:0.8;
+}
+
+
+.read-more a{
+  border-left: 2px solid #696969;
+    border-right: 2px solid #696969;
+    color: #696969;
+    font-family: maven pro,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+
+}
+.aside1 .left-para p{
+  color: #696969;
+    background-color: #fff;
+    word-wrap: break-word;
+    font-family: lora,serif;
+    line-height: 2;
+    font-size: 14px;
+}
+.aside-right{
+  position:relative;
+  margin-left:120px;
+}
+.foot{
+  height:100px;
+
+  text-align:center;
+  background-color:lightgrey;
+}
+ .icon{
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:30px;
+}
+.top-heading{
+  color:#696969;
+  font-size:24px;
+  margin-top:20px;
+}
+p strong.inverted{
+  font-size: 3em;
+  color:blue;
+}
+.table{
+  color:#696969;
+
+  font-size:24px;
+    font-weight: 400;
+
+}
+table td{
+  font-size: 14px;
+  color:#696969;
+}
+table th{
+  font-size:20px;
+  color:#696969;
+}
+.page3{
+  font-size:14px;
+  color: #696969;
+  margin-top:20px;
+  latter-spacing:1px;
+  line-height: 1.5rem;
+}
+.product-categories{
+  color:#696969;
+  text-transform: uppercase;
+  font-size:16px;
+  border-bottom:1px solid #a161bf ;
+}
+.table1 tbody tr td{
+
+  font-size: 14px;
+}
+.table1 tbody tr td a{
+  color:#696969;
+}
+.table1 tbody tr td a:hover{
+  color:red;
+}
+.table2 tbody tr td a
+{
+  color:black;
+  letter-spacing: 1px;
+  font-size:16px;
+}
+.table2 tbody tr td img{
+  width:40px;
+}
+.table2 tbody tr td {
+  color:black;
+}
+.sale{
+  display:inline;
+}
+.sales img{
+  width:200px;
+}
+.badge-image{
+  text-align:center;
+}
+.badge-image::before{
+content: 'SALE';
+border-radius: 50px;
+background: red;
+display: inline-block;
+width: 50px;
+height: 50px;
+position: absolute;
+line-height:50px;
+color: #fff;
+
+transform: translate(-25px,-25px);
+}
